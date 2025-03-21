@@ -38,7 +38,6 @@ const App: React.FC = () => {
                     <p>Track, visualize, and reduce your environmental impact</p>
                   </div>
                 )}
-                <NotificationCenter />
                 <Routes>
                   <Route path="/" element={<Dashboard />} />
                   <Route path="/log" element={<ActivityLog />} />

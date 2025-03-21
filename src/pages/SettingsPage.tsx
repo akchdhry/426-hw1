@@ -2,8 +2,8 @@
 import React from 'react';
 import { useThemeContext } from '../contexts/ThemeContext.tsx';
 import { useNotificationContext } from '../contexts/NotificationContext.tsx';
-// import ThemeSettings from '../components/settings/ThemeSettings.tsx';
-// import NotificationSettings from '../components/settings/NotificationSettings.tsx';
+import ThemeSettings from '../components/settings/ThemeSettings.tsx';
+import NotificationSettings from '../components/settings/NotificationSettings.tsx';
 
 const SettingsPage: React.FC = () => {
   const {

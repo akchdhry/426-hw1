@@ -92,7 +92,6 @@ const ResourceLibrary: React.FC = () => {
         />
         
         <div className="category-filter">
-          <span>Filter by: </span>
           <div className="category-buttons">
             {categories.map((category) => (
               <button

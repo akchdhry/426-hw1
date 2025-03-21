@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
     <nav className={`navbar ${isDarkMode ? 'dark' : 'light'}`}>
       <div className="navbar-brand">
         <Link to="/">
-          <span className="logo">🌱</span>
+          <span className="logo">🌏</span>
           <span className="app-name">Carbon Tracker</span>
         </Link>
       </div>
