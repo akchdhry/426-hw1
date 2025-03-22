@@ -82,7 +82,7 @@ const ResourceLibrary: React.FC = () => {
   return (
     <div className="resource-library-container">
       <h1>Resource Library</h1>
-      <p>Explore our collection of guides and tips for sustainable living.</p>
+      <h2>Explore our collection of guides and tips for sustainable living.</h2>
       
       <div className="resource-controls">
         <SearchBar 
